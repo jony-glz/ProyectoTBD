@@ -7,4 +7,4 @@ En este repositorio se lleva a cabo la codificación del proyecto de bases de da
 
 Aunque todos estos archivos vienen en el repositorio (excepto el jdk), es importante tenerlos e instalarlos.
 
-| Para agregar el jar al proyecto, se debe de hacer click derecho en Libraries, luego añadir JAR Folder y seleccionar el archivo .jar
+NOTA: Para agregar el jar al proyecto, se debe de hacer click derecho en Libraries, luego añadir JAR Folder y seleccionar el archivo .jar
