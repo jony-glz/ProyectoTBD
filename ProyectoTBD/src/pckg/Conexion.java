@@ -21,4 +21,17 @@ public class Conexion {
         }
         return false;
     }
+
+    public boolean desconectar(){
+        try{
+           if (conexion!=null && !conexion.isClosed()) {
+            conexion.close();
+            System.out.println("Desconexion exitosa");
+            return true;
+        } 
+        } catch (Exception ex){
+            System.err.println("Error en la desconexion: "+ex.toString());
+        }
+        return false;
+    }
 }
